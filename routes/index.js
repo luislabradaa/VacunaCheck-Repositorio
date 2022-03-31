@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const controller = require('../controllers/userController');
+const controllerQR = require('../controllers/scannController');
 
 var User = require('../models/user');
 /* GET home page. */
@@ -36,6 +37,7 @@ router.get('/leerQr', function(req,res){
 router.get('/logout', controller.user_logout);
 router.post('/index', controller.user_register); 
 router.post('/register', controller.user_register); 
+router.post('/code', controllerQR.verifyCode);
 
 router.get('/register', function(req, res, next){
   let data = {
