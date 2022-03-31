@@ -46,3 +46,4 @@ router.get('/register', function(req, res, next){
   res.render('register', data);
 });
 module.exports = router;
+

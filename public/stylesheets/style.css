@@ -120,13 +120,8 @@ footer{
   padding: 60px;
   font-size: 30px;
 }
-#btnizq{
+#btn{
  float: left;
  padding-top: 70px;
- padding-left: 780px;
-}
-#btnder{
-  float: right;
-  padding-top: 64px;
-  padding-right: 780px ;
+ padding-left: 80px;
 }

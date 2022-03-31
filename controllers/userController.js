@@ -1,5 +1,5 @@
 var User = require('../models/user');
-const { body,validationResult } = require('express-validator');
+var { body,validationResult } = require('express-validator');
 
 
 exports.user_login = function(req, res) {
