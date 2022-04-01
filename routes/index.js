@@ -38,6 +38,7 @@ router.get('/logout', controller.user_logout);
 router.post('/index', controller.user_register); 
 router.post('/register', controller.user_register); 
 router.post('/code', controllerQR.verifyCode);
+router.post('/recuperar', controller.user_recuperar); 
 
 router.get('/register', function(req, res, next){
   let data = {
@@ -47,5 +48,6 @@ router.get('/register', function(req, res, next){
 
   res.render('register', data);
 });
+
 module.exports = router;
 
