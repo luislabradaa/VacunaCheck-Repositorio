@@ -69,12 +69,12 @@ exports.user_recuperar = function(req, res){
                 console.log(' error');
                 let data = {
                     title: 'Buscando en el Sistema',
-                    message: 'Hubo un error contacte a soporte',
-                    layout:false
+                    message: ''
                 }
                 res.render('/', data);                
             }
 
+            //Encontrar CUPR 
             if (results.length > 1) {
                //req.session.curp = curp;
 
@@ -85,22 +85,23 @@ exports.user_recuperar = function(req, res){
                 nombreE:results[0].nombreE,
                 apePaterno: results[0].apePaterno,
                 apeMaterno : results[0].apeMaterno,
-               curp : results[0].curp,
-               tel: results[0].tel,
-              email: results[0].email,
-              fechaN: results[0].fechaN,
-              nomVacuna: results[0].nomVacuna,
-              folio: results[0].folio
+                curp : results[0].curp,
+                tel: results[0].tel,
+               email: results[0].email,
+               fechaN: results[0].fechaN,
+               nomVacuna: results[0].nomVacuna,
+               folio: results[0].folio
                }
 
                 res.render('datos',  {User: usuario});
+
             } else {
+                console.log('curp no encontrada');
                 let data = {
                     title: 'Buscando en el Sistema',
-                    message: 'Curp incorrecta',
-                    layout:false
+                    message: 'CURP: '+ curp + ' no encontrada '                  
                 }
-                res.render('curp', data);   
+                res.render('recuperar', data);   
             }
 
 
@@ -117,6 +118,7 @@ exports.user_recuperar = function(req, res){
 
 
 };
+
 
 
 // ************************************************** //

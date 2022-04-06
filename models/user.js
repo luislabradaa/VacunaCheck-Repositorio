@@ -28,7 +28,7 @@ function validateUser(user) {
 	nomVacuna:Joi.string().required(),
 	folio:Joi.string().required()
     };
-    return Joi.validate(user, schema);
+    return Joi.validate(User, schema);
 }
 exports.UserSchema = UserSchema;
 exports.validate = validateUser;

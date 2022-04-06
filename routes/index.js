@@ -40,14 +40,6 @@ router.post('/register', controller.user_register);
 router.post('/code', controllerQR.verifyCode);
 router.post('/recuperar', controller.user_recuperar); 
 
-router.get('/register', function(req, res, next){
-  let data = {
-      title: 'Registrar Usuario',
-      layout:false
-    }
-
-  res.render('register', data);
-});
 
 module.exports = router;
 

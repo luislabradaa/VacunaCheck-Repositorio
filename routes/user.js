@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 //Validacion de usuario 
 
-var{UserSchema, validate}=requiere('../models/user.js')
+var{UserSchema, validate}=require('../models/user.js')
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
