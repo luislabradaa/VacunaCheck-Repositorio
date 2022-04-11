@@ -1,28 +1,41 @@
-<div class="col">
-  <h1 id="htitle">Recupera tu códigoQR</h1>
-</div>
+
 <div id="imgP">
     <img src="/images/lupa.png" alt="lupa" style="height: 280px; width:280px; padding-top: 50px; padding bottom:50px;"/>
 </div>
 <br><br><br>
+
+
+<form action="/recuperar" method="post">
 <div class="col" id="colum">
   <h3 id="hCurp">Ingresa tu CURP para consultar tus datos</h3>
+
+  {{#if message}}
+     <p style="color:red">{{message}}</p>
+          {{/if}}
 </div>
 <br /><br /><br />
+
 <div class="col-md-6" id="columCon">
   <div class="col-12">
+    <label for="inputCurp" id="curp"> </label>
     <input
       type="text"
       class="form-control"
-      id="inputCcurp"
-      placeholder="CURP"
-      required
+      id="curp"
+      placeholder="CURP" 
+      name="curp"
     />
   </div>
 
   <br /><br />
-  <div class="col-12" style="padding-bottom: 105px;">
-    <button type="submit" class="btn btn-primary">Buscar</button>
-    <a class="btn btn-primary" href="/" role="button">Regresar</a>
+
+         <div class="col-12" style="padding-bottom: 20px;">
+
+    <button type="button" class="btn btn-primary" onclick="submit();"> Buscar </button>
+
+    <button class="btn btn-primary" href="/" role="button"  onclick="submit();" >Regresar</button>
+
   </div>
 </div>
+
+</form>

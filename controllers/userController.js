@@ -70,6 +70,76 @@ exports.user_register = [
 }
 ];
 
+// **RECUPERAR POR CURP **//
+
+exports.user_recuperar = function(req, res){
+
+    let curp = req.body.curp;
+    console.table('Usuario: ' + curp );
+
+    if (curp) {
+        console.log('CURP');
+
+        User.find({'curp': curp}, function(error, results){
+            console.log(' Find');
+            if (error) {
+                console.log(' error');
+                let data = {
+                    title: 'Buscando en el Sistema',
+                    message: ''
+                }
+                res.render('/', data);                
+            }
+
+            //Encontrar CUPR 
+            if (results.length > 1) {
+               //req.session.curp = curp;
+
+                console.log('Hay Datos con CURP');
+
+               usuario={
+                   
+                nombreE:results[0].nombreE,
+                apePaterno: results[0].apePaterno,
+                apeMaterno : results[0].apeMaterno,
+                curp : results[0].curp,
+                tel: results[0].tel,
+               email: results[0].email,
+               fechaN: results[0].fechaN,
+               nomVacuna: results[0].nomVacuna,
+               folio: results[0].folio
+               }
+
+                res.render('datos',  {User: usuario});
+
+            } else {
+                console.log('curp no encontrada');
+                let data = {
+                    title: 'Buscando en el Sistema',
+                    message: 'CURP: '+ curp + ' no encontrada '                  
+                }
+                res.render('recuperar', data);   
+            }
+
+
+        });
+
+    } else {
+        let data = {
+            title: 'Buscando en el Sistema',
+            message: 'Curp vacía',
+            layout:false
+        }
+        res.render('/', data);
+    }
+
+
+};
+
+
+
+// ************************************************** //
+
 exports.user_logout = function(req, res) {
     req.session.destroy();
 

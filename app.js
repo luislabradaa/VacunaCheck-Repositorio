@@ -4,13 +4,25 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var mongo = require('./config/conexionMongo');
+const session = require('express-session');
 
 //Definicion de requerimiento para rutas
 var indexRouter = require('./routes/index');
-
+var userRouter = require('./routes/user');
 
 var app = express();
 mongo();
+
+//manejo de sesion o recuperacion
+app.set('trust proxy', 1);
+app.use(session({
+  secret: 'keyboard cat',
+  resave: false,
+  saveUninitialized: true,
+  cookie: { secure: true }
+}))
+
+
 // view engine setup 
 const hbs = require('hbs');
 hbs.registerPartials(__dirname + '/views/partials', function (err) {});
@@ -24,6 +36,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
+app.use('/user', userRouter);
  
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

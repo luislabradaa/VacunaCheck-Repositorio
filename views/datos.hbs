@@ -1,0 +1,76 @@
+  <div class="col">
+    <h1 id="htitle">Datos de Registro Usuario </h1>
+  </div> 
+
+
+   {{!-- Fomulario --}}
+
+   <div class="formR" >
+    <form action="/register" method="post" class="row g-1">
+
+          <div class="col-md-4">
+          <label for="nombreE" class="form-label">Nombre </label>
+          <input type="text"  class="form-control"   value="{{User.nombreE}}" / > 
+        </div>
+
+        <div class="col-md-4">
+          <label for="inputApellidoP" id="apePaterno"class="form-label">Apellido Paterno</label>
+          <input type="text" class="form-control" id="apePaterno value" name="apePaterno"  value="{{User.apePaterno}}"/>
+        </div>
+
+        <div class="col-md-4">
+          <label for="inputApellidoM" id="apeMaterno"class="form-label">Apellido Materno </label>
+          <input type="text" class="form-control" id="apeMaterno" name="apeMaterno"  value="{{User.apeMaterno}}"/>
+        </div>
+
+        <div class="col-md-4">
+          <label for="inputCurp" id="curp"class= "form-label">CURP</label>
+          <input type="text" class="form-control" id="curp" name="curp" value="{{User.curp}}" />
+        </div>
+
+        <div class="col-md-4">
+          <label for="inputEmail" id="email"class="form-label">Correo Electronico</label>
+          <input type="email" class="form-control" id="email" name="email"  value="{{User.email}}"/>
+        </div>
+
+        <div class="col-md-4">
+          <label for="inputfechaN" id="fechaN" class="form-label">Fecha Nacimiento</label>
+          <input type="date" class="form-control" id="fechaN" name="fechaN" value="{{User.fechaN}}"/>
+        </div>
+
+      <form class="row g-2">
+
+        <div class="col-md-4">
+          <label for="inputNumero"id="tel" class="form-label">Teléfono</label>
+          <input type="text" class="form-control" id="tel" name="tel" value="{{User.tel}}"/>
+        </div>
+
+        <div class="col-md-4">
+          <label for="inputTvacuna" id="nomVacuna"class="form-label">Nombre de Vacuna</label>
+          <input type="text" class="form-control" id="nomVacuna" name="nomVacuna" value="{{User.nomVacuna}}"/>
+        </div>
+        
+        <div class="col-md-4">
+          <label for="inputTvacuna" id="folio"class="form-label">Folio registro de Vacuna</label>
+          <input type="text" class="form-control" id="folio"  name="folio" value="{{User.folio}}"/>
+        </div>
+
+
+         <div id ="btn"class="col-12" style="padding-bottom: 105px;">
+
+            <button type="submit" class="btn btn-primary"   onclick="submit();" >Actualizar</button>
+
+            <button class="btn btn-primary"  role="button"  onclick="submit();" > Eliminar </button>
+
+            <button type="button" class="btn btn-primary btn-block fa-lggradient-custom-2 mb-3"  href="/"  onclick="submit()">Regresar</button>
+        </div>
+
+     
+      </form>
+     
+    </div>      
+    
+
+    </form>
+ 
+    

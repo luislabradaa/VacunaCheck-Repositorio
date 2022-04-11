@@ -13,5 +13,25 @@ var UserSchema = new Schema({
 	folio:{type:String,required:true}
 });
 
+<<<<<<< HEAD
+=======
+function validateUser(user) {
+    const schema = {
+    
+	nombreE:Joi.string(). required().minlength(5),
+	apePaterno:Joi.string(). required().minlength(5),
+	apeMaterno:Joi.string(). required().minlength(5),
+	curp:Joi.string(). required().minlength(18).maxlength(18).curp(),
+	tel:Joi.string(). required().minlength(10).maxlength(10),
+	email:Joi.string(). required().minlength(10).maxlength(30),
+	fechaN:Joi.string().required(),
+	nomVacuna:Joi.string().required(),
+	folio:Joi.string().required()
+    };
+    return Joi.validate(User, schema);
+}
+exports.UserSchema = UserSchema;
+exports.validate = validateUser;
+>>>>>>> 690a1fc5f5fc2ae751bb0b9c9cd8ce6b038a8c89
 
 module.exports = mongoose.model('User', UserSchema);
