@@ -92,7 +92,7 @@ exports.user_recuperar = function(req, res){
             }
 
             //Encontrar CUPR 
-            if (results.length > 1) {
+            if (results.length >= 1) {
                //req.session.curp = curp;
 
                 console.log('Hay Datos con CURP');
@@ -104,7 +104,7 @@ exports.user_recuperar = function(req, res){
                 apeMaterno : results[0].apeMaterno,
                 curp : results[0].curp,
                 tel: results[0].tel,
-               email: results[0].email,
+                email: results[0].email,
                fechaN: results[0].fechaN,
                nomVacuna: results[0].nomVacuna,
                folio: results[0].folio
@@ -137,7 +137,6 @@ exports.user_recuperar = function(req, res){
 };
 
 
-
 // ************************************************** //
 
 exports.user_logout = function(req, res) {
@@ -150,5 +149,6 @@ exports.user_logout = function(req, res) {
     res.render('login', data);   
 
 };
+
 
 
