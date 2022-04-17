@@ -8,8 +8,7 @@
     <li>
       <a href="#acerca-del-proyecto">Acerca del Proyecto</a>
       <ul>
-        <li><a href="#descripción">Descripción</a>
-          <p>VacunaCheck es una aplicación web relacionada con la salud, verificando las personas que están vacunadas y  opera en un sector privado.</p></li>
+        <li><a href="#descripción">Descripción</a></li>
         <li><a href="#objetivos">Objetivos</a></li>
         <li><a href="#organigrama">Organigrama</a></li>
         <li><a href="#diagrama-gantt">Diagrama Gantt</a></li>
@@ -59,6 +58,8 @@ Requisitos.
 
 <!-- Descripción -->
 #### Descripción.
+VacunaCheck es una aplicación web que registre el estatus de vacunación de las personas que se registran y posteriormente se puedan verificar en la entrada de algún establecimiento que implemente esta aplicación.Este proyecto se realizó por un equipo de trabajo de la Universidad Tecnológica del Norte de Guanajuato de la carrera de Desarrollo de Software Multiplataforma. La estimación del proyecto es de cuatro meses para su desarrollo y su costo estimado es de  mil pesos mexicanos para el pago de servicios en la nube.
+
 Indicar la descripción del proyecto (tiempo, costo y calidad).
 
 <!-- Objetivos -->
