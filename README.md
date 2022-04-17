@@ -8,7 +8,8 @@
     <li>
       <a href="#acerca-del-proyecto">Acerca del Proyecto</a>
       <ul>
-        <li><a href="#descripción">Descripción</a></li>
+        <li><a href="#descripción">Descripción</a>
+          <p>VacunaCheck es una aplicación web relacionada con la salud, verificando las personas que están vacunadas y  opera en un sector privado.</p></li>
         <li><a href="#objetivos">Objetivos</a></li>
         <li><a href="#organigrama">Organigrama</a></li>
         <li><a href="#diagrama-gantt">Diagrama Gantt</a></li>
