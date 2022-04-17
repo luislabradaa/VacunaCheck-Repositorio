@@ -161,7 +161,7 @@ Licencia.
 Contacto.
 
 ## Participantes
-* [participante 1]: https://github.com/Lizbeth-Ps()
+* [participante 1](https://github.com/Lizbeth-Ps)
 * [participante 2]()
 * [participante 3]()
 
