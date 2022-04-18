@@ -98,7 +98,7 @@ exports.user_recuperar = function(req, res){
                 console.log('Hay Datos con CURP');
 
                usuario={
-                   
+                _id:results[0]._id,   
                 nombreE:results[0].nombreE,
                 apePaterno: results[0].apePaterno,
                 apeMaterno : results[0].apeMaterno,
@@ -110,7 +110,7 @@ exports.user_recuperar = function(req, res){
                folio: results[0].folio
                }
 
-                res.render('datos',  {User: usuario});
+                res.render('actualizardatos',  {User: usuario});
 
             } else {
                 console.log('curp no encontrada');
