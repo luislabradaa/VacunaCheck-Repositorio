@@ -58,33 +58,33 @@ Requisitos.
 
 <!-- Descripción -->
 #### Descripción.
-##El propósito del proyecto consta de llevar un mejor control de las medidas preventivas contra el covid-19 y sobrellevar  la situación actual. Al mismo tiempo  simular  una experiencia profesional en donde este proyecto se realizará por un equipo de trabajo de la Universidad Tecnológica del Norte de Guanajuato de la carrera de Desarrollo de Software Multiplataforma.
-##Para finalizar se tiene considerado que se concluya en un tiempo estimado de  un mes y medio, con un costo de estimación de  mil pesos mexicanos que se distribuye entre los siguientes  componentes Placa Arduino uno, Cable, Lector de QR y Shield usb host 2.0.
+## El propósito del proyecto consta de llevar un mejor control de las medidas preventivas contra el covid-19 y sobrellevar  la situación actual. Al mismo tiempo  simular  una experiencia profesional en donde este proyecto se realizará por un equipo de trabajo de la Universidad Tecnológica del Norte de Guanajuato de la carrera de Desarrollo de Software Multiplataforma.
+## Para finalizar se tiene considerado que se concluya en un tiempo estimado de  un mes y medio, con un costo de estimación de  mil pesos mexicanos que se distribuye entre los siguientes  componentes Placa Arduino uno, Cable, Lector de QR y Shield usb host 2.0.
 
-##La idea principal del proyecto es construir una aplicación web que registre el estatus de vacunación de las personas que se registran y posteriormente se puedan verificar en la entrada de algún establecimiento que implemente esta aplicación. Los usuarios se deben registrar en la plataforma ingresando sus datos personales y los datos del comprobante de vacunación una vez se guarden estos datos con éxito la plataforma va a generar un código QR descargable.  Por medio de este código se corrobora si esa persona está vacunada, de ser así la aplicación VacunaCheck  debe mostrar el estatus de la persona, de no ser así o no contar con un código QR la aplicación web VacunaCheck debe mostrar que la persona no está registrada. 
-##Para el siguiente proyecto se necesita conocimientos sobre Laravel ya que será el framework donde se elaborará esta aplicación web. Así mismo se necesita conocimientos en base de datos para lograr almacenar la información de los usuarios que sean registrados.
-##La finalidad de este proyecto es que los establecimientos, que tienen contacto con mucha gente, exijan la comprobación de que estás vacunado contra el COVID 19 para puedan brindar un servicio seguro y responsable.
+## La idea principal del proyecto es construir una aplicación web que registre el estatus de vacunación de las personas que se registran y posteriormente se puedan verificar en la entrada de algún establecimiento que implemente esta aplicación. Los usuarios se deben registrar en la plataforma ingresando sus datos personales y los datos del comprobante de vacunación una vez se guarden estos datos con éxito la plataforma va a generar un código QR descargable.  Por medio de este código se corrobora si esa persona está vacunada, de ser así la aplicación VacunaCheck  debe mostrar el estatus de la persona, de no ser así o no contar con un código QR la aplicación web VacunaCheck debe mostrar que la persona no está registrada. 
+## Para el siguiente proyecto se necesita conocimientos sobre Laravel ya que será el framework donde se elaborará esta aplicación web. Así mismo se necesita conocimientos en base de datos para lograr almacenar la información de los usuarios que sean registrados.
+## La finalidad de este proyecto es que los establecimientos, que tienen contacto con mucha gente, exijan la comprobación de que estás vacunado contra el COVID 19 para puedan brindar un servicio seguro y responsable.
 
-##El inicio del proyecto fue el dia jueves de la fecha 02/01/2022
-##La fecha de termino y entrega de la aplicacion es el dia Martes de la fecha 19/04/2022
+## El inicio del proyecto fue el dia jueves de la fecha 02/01/2022
+## La fecha de termino y entrega de la aplicacion es el dia Martes de la fecha 19/04/2022
 
 <!-- Objetivos -->
 #### Objetivos.
-El objetivo de VacunaCheck es llevar un control respecto a las campañas de vacunación dentro del país para evitar la propagación del virus intentando apartar a las personas de alto riesgo de las personas con menor riesgo y así sobrellevar la situación de manera eficaz y automatizada.
+## El objetivo de VacunaCheck es llevar un control respecto a las campañas de vacunación dentro del país para evitar la propagación del virus intentando apartar a las personas de alto riesgo de las personas con menor riesgo y así sobrellevar la situación de manera eficaz y automatizada.
 
 <!-- Organigrama -->
 #### Organigrama.
-##Tester      -->   Jessy Javier Araiza Cervantes
-##Programador -->   Juan Luis Negrete Labrada
-##Diseñadora  -->   Paola Guadalupe Patlan Gonzalez
-##Analista    -->   Lizbeth Perez Salinas
+## Tester      -->   Jessy Javier Araiza Cervantes
+## Programador -->   Juan Luis Negrete Labrada
+## Diseñadora  -->   Paola Guadalupe Patlan Gonzalez
+## Analista    -->   Lizbeth Perez Salinas
 
 <!-- Diagrama Gantt -->
 #### Diagrama Gantt.
-##![1](https://user-images.githubusercontent.com/97042023/164008181-b0a0d01a-286e-443e-8a0f-a67e387a842f.png)
-##![2](https://user-images.githubusercontent.com/97042023/164008222-acab80e0-a159-4e5e-9afa-85a35fbd90ac.png)
-##![3](https://user-images.githubusercontent.com/97042023/164008240-4c62d127-d3bd-4e8a-80bd-551562fbd3f6.png)
-##![4](https://user-images.githubusercontent.com/97042023/164008262-dca6012c-706d-477c-8cc7-2f205b6f3ae3.png)
+## ![1](https://user-images.githubusercontent.com/97042023/164008181-b0a0d01a-286e-443e-8a0f-a67e387a842f.png)
+## ![2](https://user-images.githubusercontent.com/97042023/164008222-acab80e0-a159-4e5e-9afa-85a35fbd90ac.png)
+## ![3](https://user-images.githubusercontent.com/97042023/164008240-4c62d127-d3bd-4e8a-80bd-551562fbd3f6.png)
+## ![4](https://user-images.githubusercontent.com/97042023/164008262-dca6012c-706d-477c-8cc7-2f205b6f3ae3.png)
 
 
 
@@ -95,36 +95,36 @@ En ésta sección se indicará los artefactos generados en base a la solución.
 
 <!-- Requerimientos -->
 #### Requerimientos.
-Requerimientos Funcionales
-1-Pantalla Principal
-##![R1](https://user-images.githubusercontent.com/97042023/164009537-c919f83c-d957-4b72-84f9-14c5b164e6c7.png)
-2-Registro
-##![R2](https://user-images.githubusercontent.com/97042023/164009685-667f4536-6c22-4430-8de9-c998deff3574.png)
-3-Leer QR
-##![R3](https://user-images.githubusercontent.com/97042023/164009843-ef5b8fcb-cc93-4c71-a2fa-136858e777a7.png)
-4-Actualizar
-##![R4](https://user-images.githubusercontent.com/97042023/164009932-fe6f2613-f9db-496a-bcc9-153d1e337fb9.png)
-Requerimientos No Funcionales
-1- De Apariencia
-##![RN1](https://user-images.githubusercontent.com/97042023/164010319-50d1017c-b87e-4d74-9fc3-cdcc45a33bad.png)
-2- Usabilidad
-##![RN2](https://user-images.githubusercontent.com/97042023/164010430-4de5a99c-1763-4748-8725-17cc75b34512.png)
-3- Rendimiento
-##![RN3](https://user-images.githubusercontent.com/97042023/164010545-a23bda19-ce45-4f0e-a949-733a51f4ee0f.png)
-4- Operacionales
-##![RN4](https://user-images.githubusercontent.com/97042023/164010665-ee869956-6be9-4ddd-8090-e4ac0714705d.png)
-5 y 6 - Mantenimiento y portavilidad 
-##![RN5Y6](https://user-images.githubusercontent.com/97042023/164010794-6cef435f-63e4-4ef6-a14e-61e16db73584.png)
-7- Seguridad
-##![RN7](https://user-images.githubusercontent.com/97042023/164010912-009a5ff8-5bb3-4c97-b50e-0657417356c2.png)
+## Requerimientos Funcionales
+## 1-Pantalla Principal
+## ![R1](https://user-images.githubusercontent.com/97042023/164009537-c919f83c-d957-4b72-84f9-14c5b164e6c7.png)
+## 2-Registro
+## ![R2](https://user-images.githubusercontent.com/97042023/164009685-667f4536-6c22-4430-8de9-c998deff3574.png)
+## 3-Leer QR
+## ![R3](https://user-images.githubusercontent.com/97042023/164009843-ef5b8fcb-cc93-4c71-a2fa-136858e777a7.png)
+## 4-Actualizar
+## ![R4](https://user-images.githubusercontent.com/97042023/164009932-fe6f2613-f9db-496a-bcc9-153d1e337fb9.png)
+## Requerimientos No Funcionales
+## 1- De Apariencia
+## ![RN1](https://user-images.githubusercontent.com/97042023/164010319-50d1017c-b87e-4d74-9fc3-cdcc45a33bad.png)
+## 2- Usabilidad
+## ![RN2](https://user-images.githubusercontent.com/97042023/164010430-4de5a99c-1763-4748-8725-17cc75b34512.png)
+## 3- Rendimiento
+## ![RN3](https://user-images.githubusercontent.com/97042023/164010545-a23bda19-ce45-4f0e-a949-733a51f4ee0f.png)
+## 4- Operacionales
+## ![RN4](https://user-images.githubusercontent.com/97042023/164010665-ee869956-6be9-4ddd-8090-e4ac0714705d.png)
+## 5 y 6 - Mantenimiento y portavilidad 
+## ![RN5Y6](https://user-images.githubusercontent.com/97042023/164010794-6cef435f-63e4-4ef6-a14e-61e16db73584.png)
+## 7- Seguridad
+## ![RN7](https://user-images.githubusercontent.com/97042023/164010912-009a5ff8-5bb3-4c97-b50e-0657417356c2.png)
 
 <!-- Diagrama de Casos de Uso -->
 #### Diagrama Casos de Uso.
 Casos de Uso
-##![CU1](https://user-images.githubusercontent.com/97042023/164011417-87150610-d54c-413d-9264-bb3fd52095e0.png)
-##![CU2](https://user-images.githubusercontent.com/97042023/164011430-d85a15d6-019c-487a-acf3-d2dfb7f63651.png)
-##![CU3](https://user-images.githubusercontent.com/97042023/164011451-bd5b3b28-69d6-433d-9333-673c1eafba0b.png)
-##![CU4](https://user-images.githubusercontent.com/97042023/164011469-83eb08b0-e797-4131-b83c-daa0cb83dfaa.png)
+## ![CU1](https://user-images.githubusercontent.com/97042023/164011417-87150610-d54c-413d-9264-bb3fd52095e0.png)
+## ![CU2](https://user-images.githubusercontent.com/97042023/164011430-d85a15d6-019c-487a-acf3-d2dfb7f63651.png)
+## ![CU3](https://user-images.githubusercontent.com/97042023/164011451-bd5b3b28-69d6-433d-9333-673c1eafba0b.png)
+## ![CU4](https://user-images.githubusercontent.com/97042023/164011469-83eb08b0-e797-4131-b83c-daa0cb83dfaa.png)
 
 
 
@@ -166,6 +166,13 @@ Código Fuente de la solución
 <!-- Pruebas proyecto -->
 ## Pruebas.
 En ésta sección se describe  los artefactos generados en base a la solución.
+## Pruba de Actualizar
+## Primero se debe consultar una Curp
+## ![PA1](https://user-images.githubusercontent.com/97042023/164014685-9285b0c2-004a-4fd0-b010-898306bfa622.png)
+## Te mostrara los datos, esto te permite modificarlos 
+## ![PA2](https://user-images.githubusercontent.com/97042023/164015088-69d2e849-9901-41ae-a68d-f4b732524f37.png)
+## Por ultimo dar clic en el boton Actualizar y tus datso se modificaran
+## ![PA3](https://user-images.githubusercontent.com/97042023/164015467-83b7cd73-b1ee-4c0b-be6e-a32c18e60ba8.png)
 
 <!-- Casos de prueba -->
 #### Casos de prueba.
