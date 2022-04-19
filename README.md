@@ -54,8 +54,10 @@
 
 <!-- Acerca del proyecto -->
 ## Acerca del proyecto
-Requisitos.
-
+## Tecnologias a utilizar 
+## Node JS V16.13.2
+## JavaScript 1.5
+## MongoDB Atlas 
 <!-- Descripción -->
 #### Descripción.
 ## El propósito del proyecto consta de llevar un mejor control de las medidas preventivas contra el covid-19 y sobrellevar  la situación actual. Al mismo tiempo  simular  una experiencia profesional en donde este proyecto se realizará por un equipo de trabajo de la Universidad Tecnológica del Norte de Guanajuato de la carrera de Desarrollo de Software Multiplataforma.
@@ -91,7 +93,7 @@ Requisitos.
 
 <!-- Análisis del proyecto -->
 ## Análisis de la Solución.
-En ésta sección se indicará los artefactos generados en base a la solución.
+## La solución que se brinda es una ayuda para los negocios, ya que, al estar registrada la clientela, podrán saber quien este vacunado y quien no lo está. De esta manera se le permitirá el acceso al negocio, ya sea Restaurante, Bar, Tienda, Cafetería, o a cualquier lugar que cuente con nuestra aplicación y este registrado.  
 
 <!-- Requerimientos -->
 #### Requerimientos.
@@ -185,7 +187,8 @@ Evidencia de Ejecución de Casos de prueba.
 
 <!-- Iniciando -->
 ## Iniciando
-Iniciando.
+## Es una aplicacion que permite el registro de usuarios, al registrar a los usuarios se les otorgara un codigo qr, en el cual se estar almacenados.
+## Este codigo QR se utilizara en otra pantalla llamada LeerQR que lo que ara es leer tu QR y buscar tu informacion en la base de datos, mandarte un mensaje si estas registrado o no lo estas y mostrarte tus datos.
 
 <!-- Requisitos -->
 ### Requisitos
