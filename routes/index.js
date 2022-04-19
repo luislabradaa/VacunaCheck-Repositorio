@@ -9,7 +9,11 @@ var User = require('../models/user');
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'VacunaCheck' });
 });
-
+/*
+router.get('/', function(req, res) {
+  res.render('mostrarqr');
+});
+*/
 /* GET registro page.*/
 router.get('/register', function(req, res){
   res.render('register', {title: 'Registro'});
@@ -30,10 +34,12 @@ router.get('/consulta', function(req, res){
   res.render('consulta', {title: 'Consultar'});
 })
 
+router.get('/mostrarqr', controller.generar_qr);  
 /* GET leerQR page */ 
 router.get('/leerQr', function(req,res){
   res.render('leerQr', {title: 'LeerQR'});
 })
+
 
 router.get('/logout', controller.user_logout);
 router.post('/index', controller.user_register); 

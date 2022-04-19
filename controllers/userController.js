@@ -1,6 +1,11 @@
+const express = require('express');
+const app = express();
 var User = require('../models/user');
 var { body,validationResult } = require('express-validator');
 const bcrypt = require("bcryptjs");
+const src = require('debug');
+const QRCode = require('qrcode');
+
 
 
 exports.user_login = function(req, res) {
@@ -45,7 +50,7 @@ exports.user_register = [
                 nomVacuna:req.body.nomVacuna,
                 folio:bcrypt.hashSync(folio,salt)
             });
-
+         
             User.find({ 'curp': req.body.curp },function(error,results){
                 
                 if (error) { return next(error); }
@@ -57,13 +62,22 @@ exports.user_register = [
 
                     res.render('register',data);
                 }else{
-
+                    /*
+                    generar_qr = function(req, res) {
+                        const folqr = '200'; 
+                        console.log(folqr); 
+                        QRCode.toDataURL( folqr, function (err, url) {
+                            
+                         res.render('mostrarqr', {qr_code: url})
+                        });  
+                    }*/
                     user.save(function(error){
                     if (error) { return next(error); }
 
                     let data= {title: 'Ingresar Sistema', message:'Bienvenido ' + req.body.nombreE}
-                    res.render('index', data);
+                    res.render('mostrarqr', data);
             });
+
         }
     });
     }
@@ -136,6 +150,15 @@ exports.user_recuperar = function(req, res){
 
 };
 
+exports.generar_qr = function(req, res) {
+    const folqr = req.body.folio; 
+    console.log(folqr); 
+    QRCode.toDataURL( folqr, function (err, url) {
+        
+        res.render('mostrarqr', {qr_code: url})
+    });   
+
+};
 
 // ************************************************** //
 
@@ -149,6 +172,7 @@ exports.user_logout = function(req, res) {
     res.render('login', data);   
 
 };
+
 
 
 
