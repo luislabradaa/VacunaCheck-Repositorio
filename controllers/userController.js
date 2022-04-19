@@ -75,7 +75,7 @@ exports.user_recuperar = function(req, res){
             }
 
             //Encontrar CUPR 
-            if (results.length > 1) {
+            if (results.length >= 1) {
                //req.session.curp = curp;
 
                 console.log('Hay Datos con CURP');
@@ -88,18 +88,21 @@ exports.user_recuperar = function(req, res){
                 curp : results[0].curp,
                 tel: results[0].tel,
                email: results[0].email,
-               fechaN: results[0].fechaN,
+              // fechaN : new Date().getTime(),
+              // fechaN: results[0].fechaN,
                nomVacuna: results[0].nomVacuna,
                folio: results[0].folio
                }
+               console.log(usuario);
 
                 res.render('datos',  {User: usuario});
+
 
             } else {
                 console.log('curp no encontrada');
                 let data = {
                     title: 'Buscando en el Sistema',
-                    message: 'CURP: '+ curp + ' no encontrada '                  
+                    message: 'CURP: '+ curp + ' no encontrada ¡¡ FAVOR DE DIRIGIRSE A LA PANTALLA DE REGISTRO !! '                  
                 }
                 res.render('recuperar', data);   
             }
