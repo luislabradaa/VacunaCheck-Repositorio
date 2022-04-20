@@ -198,19 +198,21 @@ En ésta sección se describe  los artefactos generados en base a la solución.
 <!-- Requisitos -->
 ### Requisitos
 Requisitos de Instalación.
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "express": "~4.16.1",
-    "express-session": "^1.17.2",
-    "express-validator": "^6.14.0",
-    "handlebars": "^4.7.7",
-    "hbs": "~4.0.4",
-    "http-errors": "~1.6.3",
-    "joi": "^17.6.0",
-    "mongoose": "^6.2.7",
-    "morgan": "~1.9.1",
-    "nodemon": "^2.0.15"
-    "qrcode": "^1.5.0"
+
+Dependencias:
+    cookie-parser
+    debug
+    express
+    express-session
+    express-validator
+    handlebars
+    hbs
+    http-errors
+    joi
+    mongoose
+    morgan
+    nodemon
+    qrcode
     
 
 
