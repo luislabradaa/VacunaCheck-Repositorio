@@ -127,8 +127,6 @@ Casos de Uso
 ## ![CU4](https://user-images.githubusercontent.com/97042023/164011469-83eb08b0-e797-4131-b83c-daa0cb83dfaa.png)
 
 
-
-
 <!-- Diseño del proyecto -->
 ## Diseño de la Solución.
 En ésta sección se indicará los artefactos generados en base a la solución.
@@ -136,12 +134,12 @@ En ésta sección se indicará los artefactos generados en base a la solución.
 <!-- Modelo Relacional -->
 #### Modelo Relacional.
 Esquema de la base de datos
-## ![ModeloA](![modelo relacional](https://user-images.githubusercontent.com/87044535/164107371-e2764179-ae9c-4a53-a13c-c2c8beb21de6.jpg)
-## ![ModeloB](![modelo B](https://user-images.githubusercontent.com/87044535/164109701-0c89feaf-1096-484e-a843-8333f19314bc.jpg)
+## ![ModeloA](https://user-images.githubusercontent.com/87044535/164107371-e2764179-ae9c-4a53-a13c-c2c8beb21de6.jpg)
+## ![ModeloB](https://user-images.githubusercontent.com/87044535/164109701-0c89feaf-1096-484e-a843-8333f19314bc.jpg)
 
 <!-- Diagrama de Clases -->
 #### Diagrama de Clases.
-## ![ModeloClases](![modelo clases](https://user-images.githubusercontent.com/87044535/164110249-2a1c3e3f-d505-40b1-ba7a-4374dd907827.jpg)
+## ![ModeloClases](https://user-images.githubusercontent.com/87044535/164110249-2a1c3e3f-d505-40b1-ba7a-4374dd907827.jpg)
 
 
 <!-- Diagrama de Componentes -->
