@@ -225,7 +225,7 @@ El generador de qr es automatico. Por lo tanto su uso se basa en el metodo DataU
 Contribucion.
 
 ## Licencia
-Licencia.
+Equipo de trabajo de alumnos de la "Universidad Tecnologica del Norte de Guanajuato."
 
 ## Contacto
 Correo electronico:
