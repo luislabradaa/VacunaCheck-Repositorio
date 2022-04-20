@@ -1,4 +1,4 @@
 exports.verifyCode = (function(req, res) {
 
-    res.json({ vacunado: 'Estas vacunado' });
+    res.json({vacunado: 'Estas vacunado' });
 });
