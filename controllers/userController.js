@@ -59,7 +59,6 @@ exports.user_register = [
                     let data={
                         message:'¡Este usuario ya existe!'
                     }
-
                     res.render('register',data);
                 }else{
                     console.log("folio " + folio);
