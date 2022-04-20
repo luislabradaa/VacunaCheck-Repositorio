@@ -117,12 +117,7 @@ exports.user_recuperar = function(req, res){
                 apeMaterno : results[0].apeMaterno,
                 curp : results[0].curp,
                 tel: results[0].tel,
-<<<<<<< HEAD
-               email: results[0].email,
-           
-=======
                 email: results[0].email,
->>>>>>> 0038a697d786aebc15adf2d53eb7d9671044d5f7
                nomVacuna: results[0].nomVacuna,
                folio: results[0].folio
                }
@@ -135,11 +130,8 @@ exports.user_recuperar = function(req, res){
                 console.log('curp no encontrada');
                 let data = {
                     title: 'Buscando en el Sistema',
-<<<<<<< HEAD
-                    message: 'CURP: '+ curp + ' no encontrada ¡¡ FAVOR DE DIRIGIRSE A LA PANTALLA DE REGISTRO !! '                  
-=======
-                    message: 'CURP: '+ curp + ' No Encontrada Favor de Dirigirse a La Pestaña de Registrar '                  
->>>>>>> 0038a697d786aebc15adf2d53eb7d9671044d5f7
+         message: 'CURP: '+ curp + ' No Encontrada Favor de Dirigirse a La Pestaña de Registrar '                  
+
                 }
                 res.render('recuperar', data);   
             }
