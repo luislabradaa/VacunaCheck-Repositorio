@@ -214,6 +214,8 @@ Requisitos de Instalación.
 
 ## Guias
 Guias de Uso.
+## QR generador
+El generador de qr es automatico. Por lo tanto su uso se basa en el metodo DataURL de la dependencia qrcode, este metodo nos crea un qr automaticamente cuando se realiza un  nuevo registro en la aplicación el controlador asigna automaticamente el folio a un nuevo código qr, lo genera y lo renderiza en la vista mostrarqr.  
 
 ## contribucion
 Contribucion.
