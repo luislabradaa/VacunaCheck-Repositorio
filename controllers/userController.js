@@ -62,21 +62,21 @@ exports.user_register = [
 
                     res.render('register',data);
                 }else{
-                    /*
-                    generar_qr = function(req, res) {
-                        const folqr = '200'; 
-                        console.log(folqr); 
-                        QRCode.toDataURL( folqr, function (err, url) {
-                            
-                         res.render('mostrarqr', {qr_code: url})
+                    console.log("folio " + folio);
+                    
+                    
+                        QRCode.toDataURL( folio, function (err, url) {
+                            user.save(function(error){
+                                if (error) { return next(error); }
+            
+                                let data= {title: 'Ingresar Sistema', message:'Bienvenido ' + req.body.nombreE , qr_code: url}
+                                res.render('mostrarqr', data );
+                               
+                        });
+                         
                         });  
-                    }*/
-                    user.save(function(error){
-                    if (error) { return next(error); }
-
-                    let data= {title: 'Ingresar Sistema', message:'Bienvenido ' + req.body.nombreE}
-                    res.render('mostrarqr', data);
-            });
+                    
+                  
 
         }
     });
@@ -119,7 +119,6 @@ exports.user_recuperar = function(req, res){
                 curp : results[0].curp,
                 tel: results[0].tel,
                 email: results[0].email,
-               fechaN: results[0].fechaN,
                nomVacuna: results[0].nomVacuna,
                folio: results[0].folio
                }
@@ -130,7 +129,7 @@ exports.user_recuperar = function(req, res){
                 console.log('curp no encontrada');
                 let data = {
                     title: 'Buscando en el Sistema',
-                    message: 'CURP: '+ curp + ' no encontrada '                  
+                    message: 'CURP: '+ curp + ' No Encontrada Favor de Dirigirse a La Pestaña de Registrar '                  
                 }
                 res.render('recuperar', data);   
             }
