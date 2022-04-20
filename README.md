@@ -224,7 +224,8 @@ Contribucion.
 Licencia.
 
 ## Contacto
-Contacto.
+Correo electronico:
+vacunacheck2020@gmail.com
 
 ## Participantes
 * [participante 1](https://github.com/Lizbeth-Ps)
