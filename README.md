@@ -137,11 +137,14 @@ En ésta sección se indicará los artefactos generados en base a la solución.
 
 <!-- Modelo Relacional -->
 #### Modelo Relacional.
-Esquema de la base de datos (nombre de campo, tipo de datos, restricciones, etc)
+Esquema de la base de datos
+## ![ModeloA](![modelo relacional](https://user-images.githubusercontent.com/87044535/164107371-e2764179-ae9c-4a53-a13c-c2c8beb21de6.jpg)
+## ![ModeloB](![modelo B](https://user-images.githubusercontent.com/87044535/164109701-0c89feaf-1096-484e-a843-8333f19314bc.jpg)
 
 <!-- Diagrama de Clases -->
 #### Diagrama de Clases.
-Esquema de las clases empleadas (atributos y sus métodos).
+## ![ModeloClases](![modelo clases](https://user-images.githubusercontent.com/87044535/164110249-2a1c3e3f-d505-40b1-ba7a-4374dd907827.jpg)
+
 
 <!-- Diagrama de Componentes -->
 #### Diagrama de Componentes.
@@ -168,7 +171,11 @@ Código Fuente de la solución
 <!-- Pruebas proyecto -->
 ## Pruebas.
 En ésta sección se describe  los artefactos generados en base a la solución.
-## Pruba de Actualizar
+## Prueba Registrar 
+
+## Prueba Leer QR
+## Prueba Consulta de Datos 
+## Prueba de Actualizar
 ## Primero se debe consultar una Curp
 ## ![PA1](https://user-images.githubusercontent.com/97042023/164014685-9285b0c2-004a-4fd0-b010-898306bfa622.png)
 ## Te mostrara los datos, esto te permite modificarlos 
@@ -176,31 +183,39 @@ En ésta sección se describe  los artefactos generados en base a la solución.
 ## Por ultimo dar clic en el boton Actualizar y tus datso se modificaran
 ## ![PA3](https://user-images.githubusercontent.com/97042023/164015467-83b7cd73-b1ee-4c0b-be6e-a32c18e60ba8.png)
 
-<!-- Casos de prueba -->
-#### Casos de prueba.
-Indicar los casos de prueba
 
-<!-- Ejecución Casos de prueba -->
-#### Ejecución.
-Evidencia de Ejecución de Casos de prueba.
+
+
 
 
 <!-- Iniciando -->
 ## Iniciando
-## Es una aplicacion que permite el registro de usuarios, al registrar a los usuarios se les otorgara un codigo qr, en el cual se estar almacenados.
-## Este codigo QR se utilizara en otra pantalla llamada LeerQR que lo que ara es leer tu QR y buscar tu informacion en la base de datos, mandarte un mensaje si estas registrado o no lo estas y mostrarte tus datos.
+# Es una aplicacion que permite el registro de usuarios, al registrar a los usuarios se les otorgara un codigo qr, en el cual se estar almacenados.
+# Este codigo QR se utilizara en otra pantalla llamada LeerQR que lo que ara es leer tu QR y buscar tu informacion en la base de datos, mandarte un mensaje si estas registrado o no lo estas y mostrarte tus datos.
 
 <!-- Requisitos -->
 ### Requisitos
 Requisitos de Instalación.
-
-<!-- Instalación -->
-### Instalacion
-Instalación del Software
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.14.0",
+    "handlebars": "^4.7.7",
+    "hbs": "~4.0.4",
+    "http-errors": "~1.6.3",
+    "joi": "^17.6.0",
+    "mongoose": "^6.2.7",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.15"
+    "qrcode": "^1.5.0"
+    
 
 
 ## Guias
 Guias de Uso.
+## QR generador
+El generador de qr es automatico. Por lo tanto su uso se basa en el metodo DataURL de la dependencia qrcode, este metodo nos crea un qr automaticamente cuando se realiza un  nuevo registro en la aplicación el controlador asigna automaticamente el folio a un nuevo código qr, lo genera y lo renderiza en la vista mostrarqr.  
 
 ## contribucion
 Contribucion.
@@ -209,7 +224,8 @@ Contribucion.
 Licencia.
 
 ## Contacto
-Contacto.
+Correo electronico:
+vacunacheck2020@gmail.com
 
 ## Participantes
 * [participante 1](https://github.com/Lizbeth-Ps)
@@ -218,4 +234,4 @@ Contacto.
 * [participante 4](https://github.com/Araiza07)
 
 [contribuidores-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
+[contributors-url]: https://github.com/luislabradaa/VacunaCheck-Repositorio
