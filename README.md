@@ -231,4 +231,4 @@ Contacto.
 * [participante 4](https://github.com/Araiza07)
 
 [contribuidores-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
+[contributors-url]: https://github.com/luislabradaa/VacunaCheck-Repositorio
