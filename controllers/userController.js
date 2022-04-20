@@ -1,5 +1,6 @@
 var User = require('../models/user');
 var { body,validationResult } = require('express-validator');
+const bcrypt = require("bcryptjs");
 
 
 exports.user_login = function(req, res) {
@@ -30,6 +31,8 @@ exports.user_register = [
             res.render('registro', data);
             return;
         } else {
+            const salt=bcrypt.genSaltSync(10)
+            const folio=req.body.folio
             console.log('Registrando Usuario');
             let user = new User({
                 nombreE: req.body.nombreE,
@@ -40,17 +43,31 @@ exports.user_register = [
                 email: req.body.email,
                 fechaN:req.body.fechaN,
                 nomVacuna:req.body.nomVacuna,
-                folio:req.body.folio
+                folio:bcrypt.hashSync(folio,salt)
             });
 
-            user.save(function(error){
+            User.find({ 'curp': req.body.curp },function(error,results){
+                
                 if (error) { return next(error); }
+                if(results.length >= 1 ){
+                  
+                    let data={
+                        message:'¡Este usuario ya existe!'
+                    }
 
-                let data= {title: 'Ingresar Sistema', message:'Bienvenido ' + req.body.nombreE}
-                res.render('index', data);
+                    res.render('register',data);
+                }else{
+
+                    user.save(function(error){
+                    if (error) { return next(error); }
+
+                    let data= {title: 'Ingresar Sistema', message:'Bienvenido ' + req.body.nombreE}
+                    res.render('index', data);
             });
         }
+    });
     }
+}
 ];
 
 // **RECUPERAR POR CURP **//
@@ -81,21 +98,20 @@ exports.user_recuperar = function(req, res){
                 console.log('Hay Datos con CURP');
 
                usuario={
-                   
+                _id:results[0]._id,   
                 nombreE:results[0].nombreE,
                 apePaterno: results[0].apePaterno,
                 apeMaterno : results[0].apeMaterno,
                 curp : results[0].curp,
                 tel: results[0].tel,
                email: results[0].email,
-              // fechaN : new Date().getTime(),
-              // fechaN: results[0].fechaN,
+           
                nomVacuna: results[0].nomVacuna,
                folio: results[0].folio
                }
                console.log(usuario);
 
-                res.render('datos',  {User: usuario});
+                res.render('actualizardatos',  {User: usuario});
 
 
             } else {
@@ -123,7 +139,6 @@ exports.user_recuperar = function(req, res){
 };
 
 
-
 // ************************************************** //
 
 exports.user_logout = function(req, res) {
@@ -136,5 +151,6 @@ exports.user_logout = function(req, res) {
     res.render('login', data);   
 
 };
+
 
 

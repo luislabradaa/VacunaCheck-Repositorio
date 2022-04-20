@@ -1,16 +1,18 @@
-  <div class="col">
-    <h1 id="htitle">Datos de Registro Usuario </h1>
-  </div> 
-
-
-   {{!-- Fomulario --}}
-
-   <div class="formR" >
-    <form action="/register" method="post" class="row g-1">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+       <div class="formR" >
+    <form action="/actualizardatos/{{User._id}}" method="post" class="row g-1">
 
           <div class="col-md-4">
           <label for="nombreE" class="form-label">Nombre </label>
-          <input type="text"  class="form-control"   value="{{User.nombreE}}" / > 
+          <input type="text"  class="form-control" name="Nombre"   value="{{User.nombreE}}" / > 
         </div>
 
         <div class="col-md-4">
@@ -33,7 +35,10 @@
           <input type="email" class="form-control" id="email" name="email"  value="{{User.email}}"/>
         </div>
 
-       
+        <div class="col-md-4">
+          <label for="inputfechaN" id="fechaN" class="form-label">Fecha Nacimiento</label>
+          <input type="date" class="form-control" id="fechaN" name="fechaN" value="{{User.fechaN}}"/>
+        </div>
 
       {{!-- <form class="row g-2"> --}}
 
@@ -56,8 +61,6 @@
          <div id ="btn"class="col-12" style="padding-bottom: 105px;">
 
             <button type="submit" class="btn btn-primary"   onclick="submit();" >Actualizar</button>
-
-          
         </div>
 
      
@@ -67,5 +70,5 @@
     
 
     </form>
- 
-    
+</body>
+</html>
