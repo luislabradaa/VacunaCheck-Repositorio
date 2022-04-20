@@ -182,6 +182,8 @@ En ésta sección se describe  los artefactos generados en base a la solución.
 ## ![PA2](https://user-images.githubusercontent.com/97042023/164015088-69d2e849-9901-41ae-a68d-f4b732524f37.png)
 ## Por ultimo dar clic en el boton Actualizar y tus datso se modificaran
 ## ![PA3](https://user-images.githubusercontent.com/97042023/164015467-83b7cd73-b1ee-4c0b-be6e-a32c18e60ba8.png)
+## Prueba inyección SQL o NOSQL
+![image](https://user-images.githubusercontent.com/87114168/164260506-e13a2269-7fdf-4b87-9941-fdf7ada792c7.png)
 
 
 
@@ -196,19 +198,21 @@ En ésta sección se describe  los artefactos generados en base a la solución.
 <!-- Requisitos -->
 ### Requisitos
 Requisitos de Instalación.
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "express": "~4.16.1",
-    "express-session": "^1.17.2",
-    "express-validator": "^6.14.0",
-    "handlebars": "^4.7.7",
-    "hbs": "~4.0.4",
-    "http-errors": "~1.6.3",
-    "joi": "^17.6.0",
-    "mongoose": "^6.2.7",
-    "morgan": "~1.9.1",
-    "nodemon": "^2.0.15"
-    "qrcode": "^1.5.0"
+
+Dependencias:
+    cookie-parser
+    debug
+    express
+    express-session
+    express-validator
+    handlebars
+    hbs
+    http-errors
+    joi
+    mongoose
+    morgan
+    nodemon
+    qrcode
     
 
 
