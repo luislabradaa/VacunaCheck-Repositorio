@@ -121,14 +121,17 @@ exports.user_recuperar = function(req, res){
                nomVacuna: results[0].nomVacuna,
                folio: results[0].folio
                }
+               console.log(usuario);
 
                 res.render('actualizardatos',  {User: usuario});
+
 
             } else {
                 console.log('curp no encontrada');
                 let data = {
                     title: 'Buscando en el Sistema',
-                    message: 'CURP: '+ curp + ' No Encontrada Favor de Dirigirse a La Pestaña de Registrar '                  
+         message: 'CURP: '+ curp + ' No Encontrada Favor de Dirigirse a La Pestaña de Registrar '                  
+
                 }
                 res.render('recuperar', data);   
             }

@@ -3,8 +3,14 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+<<<<<<< HEAD
     "start": "node ./bin/www"
    
+=======
+
+    "start": "nodemon ./bin/www",
+    "dev": "nodemon"
+>>>>>>> 7248a69177a25727604d3a53985b1e522efe2400
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 const express = require('express');
 const app = express();
@@ -12,5 +13,10 @@ exports.verifyCode = (function(req, res) {
     
    res.json({ vacunado: 'Estas vacunado' });
 
+=======
+
+exports.verifyCode = (function(req, res) {
+    res.json({vacunado: 'Estas vacunado' });
+>>>>>>> 7248a69177a25727604d3a53985b1e522efe2400
 
 });
