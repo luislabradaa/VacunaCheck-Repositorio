@@ -104,8 +104,6 @@
 ## ![R2](https://user-images.githubusercontent.com/97042023/164009685-667f4536-6c22-4430-8de9-c998deff3574.png)
 ## 3-Leer QR
 ## ![R3](https://user-images.githubusercontent.com/97042023/164009843-ef5b8fcb-cc93-4c71-a2fa-136858e777a7.png)
-## 4-Actualizar
-## ![R4](https://user-images.githubusercontent.com/97042023/164009932-fe6f2613-f9db-496a-bcc9-153d1e337fb9.png)
 ## Requerimientos No Funcionales
 ## 1- De Apariencia
 ## ![RN1](https://user-images.githubusercontent.com/97042023/164010319-50d1017c-b87e-4d74-9fc3-cdcc45a33bad.png)
