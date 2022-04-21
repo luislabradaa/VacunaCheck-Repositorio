@@ -208,6 +208,7 @@ En este aparatado el usuario debera de llenar el formulario correspondiente con 
 # QR generador
 El generador de qr es automatico. Por lo tanto su uso se basa en el metodo DataURL de la dependencia qrcode, este metodo nos crea un qr automaticamente cuando se realiza un  nuevo registro en la aplicación el controlador asigna automaticamente el folio a un nuevo código qr, lo genera y lo renderiza en la vista mostrarqr.  
 # Leer QR
+En este apartado el usuario debe dar permisos de usar la camara antes de utilizar el lector, una vez se le otorgan los permisos el usuario debe posicionar su qr directo a la camara y en la vista se muestra su folio.
 # Consultar Datos
 En este aparatado la consulta es mediante la busqueda por CURP, el cual al consultar o buscar verifica que el usuario este registrado, si es asi muestra los datos del mismo, de lo contrario mandara un mensaje con la indicacion de que la CURP no existe en la base de datos y que se dirija al apartado de registrar.
 # Actualizar Datos
