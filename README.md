@@ -159,8 +159,9 @@ Es la capa donde se trabaja con los datos, por tanto contendrá mecanismos para 
 Como su nombre nos hace entender, contienen el código de nuestra aplicación que va a producir la visualización de las interfaces de usuario, o sea, el código que nos permitirá renderizar los estados de nuestra aplicación en HTML. En las vistas nada más tenemos los códigos HTML y PHP que nos permite mostrar la salida.
 # Controladores
 Contiene el código necesario para responder a las acciones que se solicitan en la aplicación, como visualizar un elemento, realizar una compra, una búsqueda de información. Sirve de enlace entre las vistas y los modelos, respondiendo a los mecanismos que puedan requerirse para implementar las necesidades de nuestra aplicación.
-(https://user-images.githubusercontent.com/87114168/164535848-5de6ee65-1840-4883-a302-eb4503b32f41.png)
 
+# Evidencia
+![image](https://user-images.githubusercontent.com/87114168/164541721-5bc298b6-6367-4ab0-9d3e-b9971110c4ac.png)
 
 
 ### HEROKU (Link)
