@@ -92,11 +92,20 @@ La solución que se brinda es una ayuda para los negocios, ya que, al estar regi
 #### Requerimientos.
 ## Requerimientos Funcionales
 ## 1-Pantalla Principal
-## ![R1](https://user-images.githubusercontent.com/97042023/164009537-c919f83c-d957-4b72-84f9-14c5b164e6c7.png)
+## ![R1](https://user-images.githubusercontent.com/87044535/164540241-d381939d-cb61-4679-917c-fc11ea3177e8.jpg)
 ## 2-Registro
 ## ![R2](https://user-images.githubusercontent.com/97042023/164009685-667f4536-6c22-4430-8de9-c998deff3574.png)
 ## 3-Leer QR
 ## ![R3](https://user-images.githubusercontent.com/97042023/164009843-ef5b8fcb-cc93-4c71-a2fa-136858e777a7.png)
+## 4-Actualizar Datos
+## ![R4](https://user-images.githubusercontent.com/87044535/164540614-53d1779e-7554-459a-a4bd-d1588303df27.jpg)
+## 4-Consulta de Datos
+## ![R5](https://user-images.githubusercontent.com/87044535/164540489-6f2a326d-2a9b-4760-be09-945e36bc5b44.jpg)
+
+
+
+
+
 ## Requerimientos No Funcionales
 ## 1- De Apariencia
 ## ![RN1](https://user-images.githubusercontent.com/97042023/164010319-50d1017c-b87e-4d74-9fc3-cdcc45a33bad.png)
