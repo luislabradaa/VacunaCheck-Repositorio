@@ -68,7 +68,7 @@ La finalidad de este proyecto es que los establecimientos, que tienen contacto c
 
 <!-- Objetivos -->
 #### Objetivos.
-# El objetivo de VacunaCheck es llevar un control respecto a las campañas de vacunación dentro del país para evitar la propagación del virus intentando apartar a las personas de alto riesgo de las personas con menor riesgo y así sobrellevar la situación de manera eficaz y automatizada.
+ El objetivo de VacunaCheck es llevar un control respecto a las campañas de vacunación dentro del país para evitar la propagación del virus intentando apartar a las personas de alto riesgo de las personas con menor riesgo y así sobrellevar la situación de manera eficaz y automatizada.
 
 <!-- Organigrama -->
 #### Organigrama.
@@ -139,7 +139,7 @@ Esquema de la base de datos
 <!-- Diagrama de Componentes -->
 #### Diagrama de Componentes.
 Esquema de los componentes que interactúan (Modelo, Vista, Controlador, Servidor Web, Servidor de base de datos)
-### (https://user-images.githubusercontent.com/91643936/164537528-71a5dbe5-1817-44c0-bfa7-c7c868a2e6f1.png)
+### ![Componentes](https://user-images.githubusercontent.com/91643936/164537528-71a5dbe5-1817-44c0-bfa7-c7c868a2e6f1.png)
 
 <!-- Arquitectura MVC y Middleware -->
 #### Arquitectura.
