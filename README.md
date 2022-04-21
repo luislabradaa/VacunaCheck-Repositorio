@@ -170,6 +170,7 @@ Casos de prueba
 ## Prueba Registrar 
 ![image](https://user-images.githubusercontent.com/87114168/164343551-c55e48c1-b601-400e-bc22-1068d109bda9.png)
 ## Prueba Leer QR
+![image](https://user-images.githubusercontent.com/87114168/164498797-b7515ee4-cc2a-4de4-b628-a2618967826b.png)
 ## Prueba Consulta de Datos 
 ![image](https://user-images.githubusercontent.com/87114168/164344948-4ce19f99-0ee8-49be-899b-200f990328a9.png)
 ## Prueba de Actualizar
