@@ -100,7 +100,8 @@ La solución que se brinda es una ayuda para los negocios, ya que, al estar regi
 ## 4-Actualizar Datos
 ## ![R4](https://user-images.githubusercontent.com/87044535/164540614-53d1779e-7554-459a-a4bd-d1588303df27.jpg)
 ## 4-Consulta de Datos
-## ![R5](https://user-images.githubusercontent.com/87044535/164540489-6f2a326d-2a9b-4760-be09-945e36bc5b44.jpg)
+## ![R5](https://user-images.githubusercontent.com/87044535/164541416-cc8b54bd-6b4a-47e1-ba19-5fdc6efdec6f.jpg)
+
 
 
 
