@@ -128,7 +128,7 @@ La fecha de termino y entrega de la aplicacion es el dia Martes de la fecha 20/0
 
 
 <!-- Modelo Relacional -->
-#### Modelo Relacional.
+#### Modelo No Relacional.
 Esquema de la base de datos
 ## ![ModeloA](https://user-images.githubusercontent.com/87044535/164107371-e2764179-ae9c-4a53-a13c-c2c8beb21de6.jpg)
 ## ![ModeloB](https://user-images.githubusercontent.com/87044535/164109701-0c89feaf-1096-484e-a843-8333f19314bc.jpg)
@@ -162,7 +162,16 @@ Como su nombre nos hace entender, contienen el código de nuestra aplicación qu
 Contiene el código necesario para responder a las acciones que se solicitan en la aplicación, como visualizar un elemento, realizar una compra, una búsqueda de información. Sirve de enlace entre las vistas y los modelos, respondiendo a los mecanismos que puedan requerirse para implementar las necesidades de nuestra aplicación.
 
 
+<!--Despliegue de la aplicación en un repositorio gratuito en la nube. -->
+
+
+HEROKU
+https://vacuna-check1.herokuapp.com/ 
+
+
 <!-- Código Fuente -->
+Repositorio VacunaCheck en GitHub
+https://github.com/luislabradaa/VacunaCheck-Repositorio 
 #### Código Fuente.
 Código Fuente de la solución
 
