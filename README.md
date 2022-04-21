@@ -124,7 +124,7 @@ Casos de Uso
 ## ![CU1](https://user-images.githubusercontent.com/97042023/164011417-87150610-d54c-413d-9264-bb3fd52095e0.png)
 ## ![CU2](https://user-images.githubusercontent.com/97042023/164011430-d85a15d6-019c-487a-acf3-d2dfb7f63651.png)
 ## ![CU3](https://user-images.githubusercontent.com/97042023/164011451-bd5b3b28-69d6-433d-9333-673c1eafba0b.png)
-## ![CU4](https://user-images.githubusercontent.com/97042023/164011469-83eb08b0-e797-4131-b83c-daa0cb83dfaa.png)
+
 
 
 <!-- Diseño del proyecto -->
@@ -176,10 +176,6 @@ Casos de prueba
 ![image](https://user-images.githubusercontent.com/87114168/164345499-b0bdecab-3df2-4247-b4ff-05418bdc45d8.png)
 ## Prueba inyección SQL o NOSQL
 ![image](https://user-images.githubusercontent.com/87114168/164260506-e13a2269-7fdf-4b87-9941-fdf7ada792c7.png)
-
-
-
-
 
 
 <!-- Iniciando -->
