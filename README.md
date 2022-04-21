@@ -157,7 +157,14 @@ Estándares empleados en la codificación
 
 <!-- Arquitectura MVC y Middleware -->
 #### Arquitectura.
-Definir los patrones empleados y de seguridad.
+## En este proyecto se utiliza la arquitectura MVC 
+# Modelos
+Es la capa donde se trabaja con los datos, por tanto contendrá mecanismos para acceder a la información y también para actualizar su estado. Los datos los tendremos habitualmente en una base de datos, por lo que en los modelos tendremos todas las funciones que accederán a las tablas y harán los correspondientes selects, updates, inserts, etc.
+# Vistas
+Como su nombre nos hace entender, contienen el código de nuestra aplicación que va a producir la visualización de las interfaces de usuario, o sea, el código que nos permitirá renderizar los estados de nuestra aplicación en HTML. En las vistas nada más tenemos los códigos HTML y PHP que nos permite mostrar la salida.
+# Controladores
+Contiene el código necesario para responder a las acciones que se solicitan en la aplicación, como visualizar un elemento, realizar una compra, una búsqueda de información. Sirve de enlace entre las vistas y los modelos, respondiendo a los mecanismos que puedan requerirse para implementar las necesidades de nuestra aplicación.
+
 
 <!-- Código Fuente -->
 #### Código Fuente.
