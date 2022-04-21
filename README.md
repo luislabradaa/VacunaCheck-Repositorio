@@ -123,6 +123,7 @@ La solución que se brinda es una ayuda para los negocios, ya que, al estar regi
 ### Casos de Uso
 ![FINALCORREGIDO](https://user-images.githubusercontent.com/87114168/164538164-7ecac393-103c-454c-b06c-433d2367e826.png)
 ## ![CU2](https://user-images.githubusercontent.com/97042023/164011430-d85a15d6-019c-487a-acf3-d2dfb7f63651.png)
+![BUSCARDATOSFINAL](https://user-images.githubusercontent.com/87114168/164541113-e370ffa1-bccc-4ae9-9ffc-eb0b0685b47e.png)
 ![ACTUALIZARDATOSFINAL](https://user-images.githubusercontent.com/87114168/164540750-1d79ee6b-a941-4220-b004-4416132713da.png)
 
 
