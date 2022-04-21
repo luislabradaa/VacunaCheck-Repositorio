@@ -55,9 +55,9 @@
 <!-- Acerca del proyecto -->
 ## Acerca del proyecto
 ## Tecnologias a utilizar 
-## Node JS V16.13.2
-## JavaScript 1.5
-## MongoDB Atlas 
+# Node JS V16.13.2
+# JavaScript 1.5
+# MongoDB Atlas 
 <!-- Descripción -->
 #### Descripción.
 El propósito del proyecto consta de llevar un mejor control de las medidas preventivas contra el covid-19 y sobrellevar  la situación actual. Al mismo tiempo  simular  una experiencia profesional en donde este proyecto se realizará por un equipo de trabajo de la Universidad Tecnológica del Norte de Guanajuato de la carrera de Desarrollo de Software Multiplataforma.
@@ -108,8 +108,6 @@ La solución que se brinda es una ayuda para los negocios, ya que, al estar regi
 ## ![RN4](https://user-images.githubusercontent.com/97042023/164010665-ee869956-6be9-4ddd-8090-e4ac0714705d.png)
 ## 5 y 6 - Mantenimiento y portavilidad 
 ## ![RN5Y6](https://user-images.githubusercontent.com/97042023/164010794-6cef435f-63e4-4ef6-a14e-61e16db73584.png)
-## 7- Seguridad
-## ![RN7](https://user-images.githubusercontent.com/97042023/164010912-009a5ff8-5bb3-4c97-b50e-0657417356c2.png)
 
 <!-- Diagrama de Casos de Uso -->
 #### Diagrama Casos de Uso.
