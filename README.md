@@ -60,15 +60,14 @@
 ## MongoDB Atlas 
 <!-- Descripción -->
 #### Descripción.
-# El propósito del proyecto consta de llevar un mejor control de las medidas preventivas contra el covid-19 y sobrellevar  la situación actual. Al mismo tiempo  simular  una experiencia profesional en donde este proyecto se realizará por un equipo de trabajo de la Universidad Tecnológica del Norte de Guanajuato de la carrera de Desarrollo de Software Multiplataforma.
-## Para finalizar se tiene considerado que se concluya en un tiempo estimado de  un mes y medio, con un costo de estimación de  mil pesos mexicanos que se distribuye entre los siguientes  componentes Placa Arduino uno, Cable, Lector de QR y Shield usb host 2.0.
+El propósito del proyecto consta de llevar un mejor control de las medidas preventivas contra el covid-19 y sobrellevar  la situación actual. Al mismo tiempo  simular  una experiencia profesional en donde este proyecto se realizará por un equipo de trabajo de la Universidad Tecnológica del Norte de Guanajuato de la carrera de Desarrollo de Software Multiplataforma.
+Para finalizar se tiene considerado que se concluya en un tiempo estimado de  un mes y medio, con un costo de estimación de  mil pesos mexicanos que se distribuye entre los siguientes  componentes Placa Arduino uno, Cable, Lector de QR y Shield usb host 2.0.
+La idea principal del proyecto es construir una aplicación web que registre el estatus de vacunación de las personas que se registran y posteriormente se puedan verificar en la entrada de algún establecimiento que implemente esta aplicación. Los usuarios se deben registrar en la plataforma ingresando sus datos personales y los datos del comprobante de vacunación una vez se guarden estos datos con éxito la plataforma va a generar un código QR descargable.  Por medio de este código se corrobora si esa persona está vacunada, de ser así la aplicación VacunaCheck  debe mostrar el estatus de la persona, de no ser así o no contar con un código QR la aplicación web VacunaCheck debe mostrar que la persona no está registrada. 
+Para el siguiente proyecto se necesita conocimientos sobre Laravel ya que será el framework donde se elaborará esta aplicación web. Así mismo se necesita conocimientos en base de datos para lograr almacenar la información de los usuarios que sean registrados.
+La finalidad de este proyecto es que los establecimientos, que tienen contacto con mucha gente, exijan la comprobación de que estás vacunado contra el COVID 19 para puedan brindar un servicio seguro y responsable.
 
-# La idea principal del proyecto es construir una aplicación web que registre el estatus de vacunación de las personas que se registran y posteriormente se puedan verificar en la entrada de algún establecimiento que implemente esta aplicación. Los usuarios se deben registrar en la plataforma ingresando sus datos personales y los datos del comprobante de vacunación una vez se guarden estos datos con éxito la plataforma va a generar un código QR descargable.  Por medio de este código se corrobora si esa persona está vacunada, de ser así la aplicación VacunaCheck  debe mostrar el estatus de la persona, de no ser así o no contar con un código QR la aplicación web VacunaCheck debe mostrar que la persona no está registrada. 
-# Para el siguiente proyecto se necesita conocimientos sobre Laravel ya que será el framework donde se elaborará esta aplicación web. Así mismo se necesita conocimientos en base de datos para lograr almacenar la información de los usuarios que sean registrados.
-# La finalidad de este proyecto es que los establecimientos, que tienen contacto con mucha gente, exijan la comprobación de que estás vacunado contra el COVID 19 para puedan brindar un servicio seguro y responsable.
-
-# El inicio del proyecto fue el dia jueves de la fecha 02/01/2022
-# La fecha de termino y entrega de la aplicacion es el dia Martes de la fecha 20/04/2022
+El inicio del proyecto fue el dia jueves de la fecha 02/01/2022
+La fecha de termino y entrega de la aplicacion es el dia Martes de la fecha 20/04/2022
 
 <!-- Objetivos -->
 #### Objetivos.
@@ -90,7 +89,7 @@
 
 <!-- Análisis del proyecto -->
 ## Análisis de la Solución.
-## La solución que se brinda es una ayuda para los negocios, ya que, al estar registrada la clientela, podrán saber quien este vacunado y quien no lo está. De esta manera se le permitirá el acceso al negocio, ya sea Restaurante, Bar, Tienda, Cafetería, o a cualquier lugar que cuente con nuestra aplicación y este registrado.  
+# La solución que se brinda es una ayuda para los negocios, ya que, al estar registrada la clientela, podrán saber quien este vacunado y quien no lo está. De esta manera se le permitirá el acceso al negocio, ya sea Restaurante, Bar, Tienda, Cafetería, o a cualquier lugar que cuente con nuestra aplicación y este registrado.  
 
 <!-- Requerimientos -->
 #### Requerimientos.
@@ -117,7 +116,7 @@
 
 <!-- Diagrama de Casos de Uso -->
 #### Diagrama Casos de Uso.
-Casos de Uso
+### Casos de Uso
 ## ![CU1](https://user-images.githubusercontent.com/97042023/164011417-87150610-d54c-413d-9264-bb3fd52095e0.png)
 ## ![CU2](https://user-images.githubusercontent.com/97042023/164011430-d85a15d6-019c-487a-acf3-d2dfb7f63651.png)
 ## ![CU3](https://user-images.githubusercontent.com/97042023/164011451-bd5b3b28-69d6-433d-9333-673c1eafba0b.png)
@@ -169,8 +168,8 @@ Código Fuente de la solución
 
 
 <!-- Pruebas proyecto -->
-## Pruebas.
-Casos de prueba
+### Pruebas.
+#Casos de prueba
 ## Prueba Registrar 
 ![image](https://user-images.githubusercontent.com/87114168/164343551-c55e48c1-b601-400e-bc22-1068d109bda9.png)
 ## Prueba Leer QR
