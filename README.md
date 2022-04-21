@@ -166,18 +166,14 @@ Código Fuente de la solución
 
 <!-- Pruebas proyecto -->
 ## Pruebas.
-En ésta sección se describe  los artefactos generados en base a la solución.
+Casos de prueba
 ## Prueba Registrar 
-
+![image](https://user-images.githubusercontent.com/87114168/164343551-c55e48c1-b601-400e-bc22-1068d109bda9.png)
 ## Prueba Leer QR
 ## Prueba Consulta de Datos 
+![image](https://user-images.githubusercontent.com/87114168/164344948-4ce19f99-0ee8-49be-899b-200f990328a9.png)
 ## Prueba de Actualizar
-## Primero se debe consultar una Curp
-## ![PA1](https://user-images.githubusercontent.com/97042023/164014685-9285b0c2-004a-4fd0-b010-898306bfa622.png)
-## Te mostrara los datos, esto te permite modificarlos 
-## ![PA2](https://user-images.githubusercontent.com/97042023/164015088-69d2e849-9901-41ae-a68d-f4b732524f37.png)
-## Por ultimo dar clic en el boton Actualizar y tus datso se modificaran
-## ![PA3](https://user-images.githubusercontent.com/97042023/164015467-83b7cd73-b1ee-4c0b-be6e-a32c18e60ba8.png)
+![image](https://user-images.githubusercontent.com/87114168/164345499-b0bdecab-3df2-4247-b4ff-05418bdc45d8.png)
 ## Prueba inyección SQL o NOSQL
 ![image](https://user-images.githubusercontent.com/87114168/164260506-e13a2269-7fdf-4b87-9941-fdf7ada792c7.png)
 
