@@ -60,26 +60,23 @@
 ## MongoDB Atlas 
 <!-- Descripción -->
 #### Descripción.
-## El propósito del proyecto consta de llevar un mejor control de las medidas preventivas contra el covid-19 y sobrellevar  la situación actual. Al mismo tiempo  simular  una experiencia profesional en donde este proyecto se realizará por un equipo de trabajo de la Universidad Tecnológica del Norte de Guanajuato de la carrera de Desarrollo de Software Multiplataforma.
+# El propósito del proyecto consta de llevar un mejor control de las medidas preventivas contra el covid-19 y sobrellevar  la situación actual. Al mismo tiempo  simular  una experiencia profesional en donde este proyecto se realizará por un equipo de trabajo de la Universidad Tecnológica del Norte de Guanajuato de la carrera de Desarrollo de Software Multiplataforma.
 ## Para finalizar se tiene considerado que se concluya en un tiempo estimado de  un mes y medio, con un costo de estimación de  mil pesos mexicanos que se distribuye entre los siguientes  componentes Placa Arduino uno, Cable, Lector de QR y Shield usb host 2.0.
 
-## La idea principal del proyecto es construir una aplicación web que registre el estatus de vacunación de las personas que se registran y posteriormente se puedan verificar en la entrada de algún establecimiento que implemente esta aplicación. Los usuarios se deben registrar en la plataforma ingresando sus datos personales y los datos del comprobante de vacunación una vez se guarden estos datos con éxito la plataforma va a generar un código QR descargable.  Por medio de este código se corrobora si esa persona está vacunada, de ser así la aplicación VacunaCheck  debe mostrar el estatus de la persona, de no ser así o no contar con un código QR la aplicación web VacunaCheck debe mostrar que la persona no está registrada. 
-## Para el siguiente proyecto se necesita conocimientos sobre Laravel ya que será el framework donde se elaborará esta aplicación web. Así mismo se necesita conocimientos en base de datos para lograr almacenar la información de los usuarios que sean registrados.
-## La finalidad de este proyecto es que los establecimientos, que tienen contacto con mucha gente, exijan la comprobación de que estás vacunado contra el COVID 19 para puedan brindar un servicio seguro y responsable.
+# La idea principal del proyecto es construir una aplicación web que registre el estatus de vacunación de las personas que se registran y posteriormente se puedan verificar en la entrada de algún establecimiento que implemente esta aplicación. Los usuarios se deben registrar en la plataforma ingresando sus datos personales y los datos del comprobante de vacunación una vez se guarden estos datos con éxito la plataforma va a generar un código QR descargable.  Por medio de este código se corrobora si esa persona está vacunada, de ser así la aplicación VacunaCheck  debe mostrar el estatus de la persona, de no ser así o no contar con un código QR la aplicación web VacunaCheck debe mostrar que la persona no está registrada. 
+# Para el siguiente proyecto se necesita conocimientos sobre Laravel ya que será el framework donde se elaborará esta aplicación web. Así mismo se necesita conocimientos en base de datos para lograr almacenar la información de los usuarios que sean registrados.
+# La finalidad de este proyecto es que los establecimientos, que tienen contacto con mucha gente, exijan la comprobación de que estás vacunado contra el COVID 19 para puedan brindar un servicio seguro y responsable.
 
-## El inicio del proyecto fue el dia jueves de la fecha 02/01/2022
-## La fecha de termino y entrega de la aplicacion es el dia Martes de la fecha 19/04/2022
+# El inicio del proyecto fue el dia jueves de la fecha 02/01/2022
+# La fecha de termino y entrega de la aplicacion es el dia Martes de la fecha 20/04/2022
 
 <!-- Objetivos -->
 #### Objetivos.
-## El objetivo de VacunaCheck es llevar un control respecto a las campañas de vacunación dentro del país para evitar la propagación del virus intentando apartar a las personas de alto riesgo de las personas con menor riesgo y así sobrellevar la situación de manera eficaz y automatizada.
+# El objetivo de VacunaCheck es llevar un control respecto a las campañas de vacunación dentro del país para evitar la propagación del virus intentando apartar a las personas de alto riesgo de las personas con menor riesgo y así sobrellevar la situación de manera eficaz y automatizada.
 
 <!-- Organigrama -->
 #### Organigrama.
-## Tester      -->   Jessy Javier Araiza Cervantes
-## Programador -->   Juan Luis Negrete Labrada
-## Diseñadora  -->   Paola Guadalupe Patlan Gonzalez
-## Analista    -->   Lizbeth Perez Salinas
+
 
 <!-- Diagrama Gantt -->
 #### Diagrama Gantt.
@@ -128,8 +125,8 @@ Casos de Uso
 
 
 <!-- Diseño del proyecto -->
-## Diseño de la Solución.
-En ésta sección se indicará los artefactos generados en base a la solución.
+
+
 
 <!-- Modelo Relacional -->
 #### Modelo Relacional.
