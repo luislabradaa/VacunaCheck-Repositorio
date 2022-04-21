@@ -124,7 +124,7 @@ La solución que se brinda es una ayuda para los negocios, ya que, al estar regi
 
 
 
-<!-- Modelo Relacional -->
+<!-- Modelo No Relacional -->
 #### Modelo No Relacional.
 Esquema de la base de datos
 ## ![ModeloA](https://user-images.githubusercontent.com/87044535/164107371-e2764179-ae9c-4a53-a13c-c2c8beb21de6.jpg)
@@ -132,12 +132,14 @@ Esquema de la base de datos
 
 <!-- Diagrama de Clases -->
 #### Diagrama de Clases.
-## ![ModeloClases](https://user-images.githubusercontent.com/87044535/164110249-2a1c3e3f-d505-40b1-ba7a-4374dd907827.jpg)
+## ![ModeloClases](https://user-images.githubusercontent.com/91643936/164537179-fb9a3096-6013-44bc-9d42-0f3bd15b9d04.png)
+
 
 
 <!-- Diagrama de Componentes -->
 #### Diagrama de Componentes.
 Esquema de los componentes que interactúan (Modelo, Vista, Controlador, Servidor Web, Servidor de base de datos)
+### (https://user-images.githubusercontent.com/91643936/164537528-71a5dbe5-1817-44c0-bfa7-c7c868a2e6f1.png)
 
 <!-- Arquitectura MVC y Middleware -->
 #### Arquitectura.
@@ -148,17 +150,17 @@ Es la capa donde se trabaja con los datos, por tanto contendrá mecanismos para 
 Como su nombre nos hace entender, contienen el código de nuestra aplicación que va a producir la visualización de las interfaces de usuario, o sea, el código que nos permitirá renderizar los estados de nuestra aplicación en HTML. En las vistas nada más tenemos los códigos HTML y PHP que nos permite mostrar la salida.
 # Controladores
 Contiene el código necesario para responder a las acciones que se solicitan en la aplicación, como visualizar un elemento, realizar una compra, una búsqueda de información. Sirve de enlace entre las vistas y los modelos, respondiendo a los mecanismos que puedan requerirse para implementar las necesidades de nuestra aplicación.
-![image](https://user-images.githubusercontent.com/87114168/164535848-5de6ee65-1840-4883-a302-eb4503b32f41.png)
+(https://user-images.githubusercontent.com/87114168/164535848-5de6ee65-1840-4883-a302-eb4503b32f41.png)
 
 
 
-## HEROKU (Link)
+### HEROKU (Link)
 https://vacuna-check1.herokuapp.com/ 
 
 
 
 #### Código Fuente.
-Repositorio VacunaCheck en GitHub
+### Repositorio VacunaCheck en GitHub
 https://github.com/luislabradaa/VacunaCheck-Repositorio 
 
 <!-- Pruebas proyecto -->
