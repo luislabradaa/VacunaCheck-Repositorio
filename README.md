@@ -189,18 +189,22 @@ Dependencias:
     - mongoose
     - qrcode
     
-
-
 ## Guias
 Guias de Uso.
+
 # Registro
+En este aparatado el usuario debera de llenar el formulario correspondiente con todos los campos ya que estan requeridos y validados. Para poderse registrar y automaticamente estar ingresados en la base de datos se le tiene que dar clic en el boton superior llamado registrar. Si el usuario existe mandara un mensaje de ya existente.
 # QR generador
 El generador de qr es automatico. Por lo tanto su uso se basa en el metodo DataURL de la dependencia qrcode, este metodo nos crea un qr automaticamente cuando se realiza un  nuevo registro en la aplicación el controlador asigna automaticamente el folio a un nuevo código qr, lo genera y lo renderiza en la vista mostrarqr.  
 # Leer QR
 # Consultar Datos
+En este aparatado la consulta es mediante la busqueda por CURP, el cual al consultar o buscar verifica que el usuario este registrado, si es asi muestra los datos del mismo, de lo contrario mandara un mensaje con la indicacion de que la CURP no existe en la base de datos y que se dirija al apartado de registrar.
 # Actualizar Datos
+En este apartado el usuario podra editar cualquier campo que sea nesesario.
 ## contribucion
 Equipo de trabajo de alumnos de la "Universidad Tecnologica del Norte de Guanajuato."
+
+
 
 ## Licencia
 Uso Libre
