@@ -61,13 +61,10 @@
 <!-- Descripción -->
 #### Descripción.
 El propósito del proyecto consta de llevar un mejor control de las medidas preventivas contra el covid-19 y sobrellevar  la situación actual. Al mismo tiempo  simular  una experiencia profesional en donde este proyecto se realizará por un equipo de trabajo de la Universidad Tecnológica del Norte de Guanajuato de la carrera de Desarrollo de Software Multiplataforma.
-Para finalizar se tiene considerado que se concluya en un tiempo estimado de  un mes y medio, con un costo de estimación de  mil pesos mexicanos que se distribuye entre los siguientes  componentes Placa Arduino uno, Cable, Lector de QR y Shield usb host 2.0.
-La idea principal del proyecto es construir una aplicación web que registre el estatus de vacunación de las personas que se registran y posteriormente se puedan verificar en la entrada de algún establecimiento que implemente esta aplicación. Los usuarios se deben registrar en la plataforma ingresando sus datos personales y los datos del comprobante de vacunación una vez se guarden estos datos con éxito la plataforma va a generar un código QR descargable.  Por medio de este código se corrobora si esa persona está vacunada, de ser así la aplicación VacunaCheck  debe mostrar el estatus de la persona, de no ser así o no contar con un código QR la aplicación web VacunaCheck debe mostrar que la persona no está registrada. 
-Para el siguiente proyecto se necesita conocimientos sobre Laravel ya que será el framework donde se elaborará esta aplicación web. Así mismo se necesita conocimientos en base de datos para lograr almacenar la información de los usuarios que sean registrados.
-La finalidad de este proyecto es que los establecimientos, que tienen contacto con mucha gente, exijan la comprobación de que estás vacunado contra el COVID 19 para puedan brindar un servicio seguro y responsable.
 
-El inicio del proyecto fue el dia jueves de la fecha 02/01/2022
-La fecha de termino y entrega de la aplicacion es el dia Martes de la fecha 20/04/2022
+La idea principal del proyecto es construir una aplicación web que registre el estatus de vacunación de las personas que se registran y posteriormente se puedan verificar en la entrada de algún establecimiento que implemente esta aplicación. Los usuarios se deben registrar en la plataforma ingresando sus datos personales y los datos del comprobante de vacunación una vez se guarden estos datos con éxito la plataforma va a generar un código QR.
+Para el siguiente proyecto se necesita conocimientos sobre NodeJS ya que será el framework donde se elaborará esta aplicación web. Así mismo se necesita conocimientos en base de datos para lograr almacenar la información de los usuarios que sean registrados.
+La finalidad de este proyecto es que los establecimientos, que tienen contacto con mucha gente, exijan la comprobación de que estás vacunado contra el COVID 19 para puedan brindar un servicio seguro y responsable.
 
 <!-- Objetivos -->
 #### Objetivos.
@@ -75,7 +72,7 @@ La fecha de termino y entrega de la aplicacion es el dia Martes de la fecha 20/0
 
 <!-- Organigrama -->
 #### Organigrama.
-
+![image](https://user-images.githubusercontent.com/87114168/164536660-d631a63a-1248-4508-b955-70b2abdd9bcd.png)
 
 <!-- Diagrama Gantt -->
 #### Diagrama Gantt.
@@ -89,7 +86,7 @@ La fecha de termino y entrega de la aplicacion es el dia Martes de la fecha 20/0
 
 <!-- Análisis del proyecto -->
 ## Análisis de la Solución.
-# La solución que se brinda es una ayuda para los negocios, ya que, al estar registrada la clientela, podrán saber quien este vacunado y quien no lo está. De esta manera se le permitirá el acceso al negocio, ya sea Restaurante, Bar, Tienda, Cafetería, o a cualquier lugar que cuente con nuestra aplicación y este registrado.  
+La solución que se brinda es una ayuda para los negocios, ya que, al estar registrada la clientela, podrán saber quien este vacunado y quien no lo está. De esta manera se le permitirá el acceso al negocio, ya sea Restaurante, Bar, Tienda, Cafetería, o a cualquier lugar que cuente con nuestra aplicación y este registrado.  
 
 <!-- Requerimientos -->
 #### Requerimientos.
@@ -142,15 +139,6 @@ Esquema de la base de datos
 #### Diagrama de Componentes.
 Esquema de los componentes que interactúan (Modelo, Vista, Controlador, Servidor Web, Servidor de base de datos)
 
-
-<!-- Implementación del proyecto -->
-## Implementación.
-En ésta sección se describe  los artefactos generados en base a la solución.
-
-<!-- Estándares de Codificación -->
-#### Estándares Codificación.
-Estándares empleados en la codificación
-
 <!-- Arquitectura MVC y Middleware -->
 #### Arquitectura.
 ## En este proyecto se utiliza la arquitectura MVC 
@@ -160,21 +148,18 @@ Es la capa donde se trabaja con los datos, por tanto contendrá mecanismos para 
 Como su nombre nos hace entender, contienen el código de nuestra aplicación que va a producir la visualización de las interfaces de usuario, o sea, el código que nos permitirá renderizar los estados de nuestra aplicación en HTML. En las vistas nada más tenemos los códigos HTML y PHP que nos permite mostrar la salida.
 # Controladores
 Contiene el código necesario para responder a las acciones que se solicitan en la aplicación, como visualizar un elemento, realizar una compra, una búsqueda de información. Sirve de enlace entre las vistas y los modelos, respondiendo a los mecanismos que puedan requerirse para implementar las necesidades de nuestra aplicación.
+![image](https://user-images.githubusercontent.com/87114168/164535848-5de6ee65-1840-4883-a302-eb4503b32f41.png)
 
 
-<!--Despliegue de la aplicación en un repositorio gratuito en la nube. -->
 
-
-HEROKU
+## HEROKU (Link)
 https://vacuna-check1.herokuapp.com/ 
 
 
-<!-- Código Fuente -->
+
+#### Código Fuente.
 Repositorio VacunaCheck en GitHub
 https://github.com/luislabradaa/VacunaCheck-Repositorio 
-#### Código Fuente.
-Código Fuente de la solución
-
 
 <!-- Pruebas proyecto -->
 ### Pruebas.
@@ -191,37 +176,29 @@ Código Fuente de la solución
 ![image](https://user-images.githubusercontent.com/87114168/164260506-e13a2269-7fdf-4b87-9941-fdf7ada792c7.png)
 
 
-<!-- Iniciando -->
-## Iniciando
-# Es una aplicacion que permite el registro de usuarios, al registrar a los usuarios se les otorgara un codigo qr, en el cual se estar almacenados.
-# Este codigo QR se utilizara en otra pantalla llamada LeerQR que lo que ara es leer tu QR y buscar tu informacion en la base de datos, mandarte un mensaje si estas registrado o no lo estas y mostrarte tus datos.
 
-<!-- Requisitos -->
-### Requisitos
-Requisitos de Instalación.
-
+## Requisitos de Instalación(Dependencias).
 Dependencias:
-    cookie-parser
-    debug
-    express
-    express-session
-    express-validator
-    handlebars
-    hbs
-    http-errors
-    joi
-    mongoose
-    morgan
-    nodemon
-    qrcode
+    - cookie-parser
+    - debug
+    - express
+    - express-session
+    - express-validator
+    - http-errors
+    - joi
+    - mongoose
+    - qrcode
     
 
 
 ## Guias
 Guias de Uso.
-## QR generador
+# Registro
+# QR generador
 El generador de qr es automatico. Por lo tanto su uso se basa en el metodo DataURL de la dependencia qrcode, este metodo nos crea un qr automaticamente cuando se realiza un  nuevo registro en la aplicación el controlador asigna automaticamente el folio a un nuevo código qr, lo genera y lo renderiza en la vista mostrarqr.  
-
+# Leer QR
+# Consultar Datos
+# Actualizar Datos
 ## contribucion
 Equipo de trabajo de alumnos de la "Universidad Tecnologica del Norte de Guanajuato."
 
